@@ -1,4 +1,7 @@
-img { display: block; width: 100%; height: auto }  
+/* ==== Browser resets  ==== */
+img { display: block; width: 100%; height: auto }
+
+
 /* Web page */
 body {
     background-color: #FFFFBD;
@@ -9,7 +12,7 @@ body {
 
 /* Main heading */
 h1 {
-    font-family:'Merriweather',serif;    
+    font-family: serif;    
     font-size: 84px;
     font-weight: normal;
     color: #3434B0;
@@ -20,7 +23,7 @@ h1 {
 
 /* Small headings */
 h2 {
-    font-family:'Merriweather',serif;     
+    font-family: serif;    
     font-size: 26px;
     color:#3434B0;
     line-height: 1.4;
@@ -29,7 +32,7 @@ h2 {
 
 /* Smaller headings */
 h3 {
-    font-family:'Merriweather',serif;      
+    font-family: serif;    
     font-size: 42px;
     color: #000;
     letter-spacing:-2px;
@@ -39,10 +42,18 @@ h3 {
 
 /* Text paragraphs */
 p {
-    font-family:'Merriweather',serif;   
+    font-family: serif;
     font-size: 22px;
     color: #455C80;
     line-height: 1.6;
     margin-top: 0;
     margin-bottom: 22px;
 }
+
+/* Images */
+img { 
+    margin-bottom: 42px;
+    /* Drop shadow effect at right and bottom of image */
+    box-shadow: 8px 10px 8px #888;    
+}
+
