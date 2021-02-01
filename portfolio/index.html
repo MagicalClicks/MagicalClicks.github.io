@@ -3,97 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chinthuja Madhavan | Full Stack Developer| Portfolio Page</title>
-    <meta name="description" content="View a selection of my web design and development work. Let's create something great together!">
+
+    <title>Sample of container blocks with altenating light and dark styles</title>
+    <meta name="description" content="Using full-width divs to create a web page with alterating light and dark background coloured container styles.">   
+ 
+    <link rel="stylesheet" href="../assets/css/style-12.css">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    
-    <!-- Customise Bootstrap for practical grid layouts -->
-    <link rel="stylesheet" href="../assets/css/bootstrap-custom.css"> 
-
-    <!-- Main stylesheet -->
-    <link rel="stylesheet" href="../assets/css/global.css">
-
-    <!-- Styles for this web page -->
-    <style>
-        .container.text-center p { font-size: x-large; margin-bottom: 20px }
-        .hero-7 { 
-            background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../assets/img/hero-portfolio.jpg')
-        }
-        @media (min-width:768px) { 
-            .hero-block { padding: 5% 5% }
-        }    
-        
-    </style>
-
-    <!-- Link to icons for Font Awesome 5 -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+   <!-- Customise Bootstrap for practical grid layouts -->
+   <link rel="stylesheet" href="../assets/css/bootstrap-custom.css">
+   
+   <!-- Main stylesheet -->
+   <link rel="stylesheet" href="../assets/css/global.css">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">  
+<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">    
+          <!-- Link to icons for Font Awesome 5 -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">  
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-REWQ5738QX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-REWQ5738QX');
-</script>
-    <!-- Insites CSS for popup privacy message -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-        
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-REWQ5738QX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-REWQ5738QX');
+    </script>
+        <!-- Insites CSS for popup privacy message -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body>
 
-    <!-- Begin navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="mainNav">
-        <div class="container">
-
-            <!-- Website logo -->
-            <a class="navbar-brand" href="../index.html">
-                <img src="../assets/img/website-logo.png" width="200" height="40"  alt="Website logo">
-            </a>
-
-            <!-- Hamburger icon -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation"><i class="fas fa-bars"></i>
-            </button>
-
-            <!-- Begin menu options -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                   <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-                   <li class="nav-item"><a class="nav-link" href="../javascript/">JavaScript</a></li>
-                  <li class="nav-item"><a class="nav-link" href="../wordpress/">WordPress</a></li>
-  
-                    <!-- Call to action button-->
-                    <li class="nav-item">
-                        <a class="btn btn-primary" href="../contact/" role="button">
-                            <i class="far fa-envelope"></i> &nbsp;&nbsp;Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-   <!-- End navbar -->
-
-
-   <div class="container-fluid hero-block hero-7">
-    <h1>Chinthuja Madhavan</h1>
-    <h2>Web Design and Development Portfolio</h2>
-
-
-</div>
-
-    <div class="container text-center">
-
-        <h1>I have been busy</h1>
-
-        <p>Below you can see a selection of my web design and development work.</p>
+    <div class="container-block bg-hero-block">
+        <h1>Hi, I am Chinthuja Madhavan</h1>
         
-        <p>Have a project you'd like to discuss? <a href="../contact">Let's make something great together!</a></p>
+        <h2>Full Stack developer passionate about Cloud Computing,UX/UI designing and Software Development.</h2>
+    </div>
+    
+    <div class="container-block bg-blue-dark">
+        <h3>SKILLS</h3>
+       <li>Java/J2EE</li>
+       <li>JavaScript,jQuery</li>
+       <li>NodeJS,React</li>\
+       <li>C#,WPF</li>
+       <li>Linux and Windows Server Administration</li>
+       <li>AWS</li>
+       <li>Networking,Active Directory</li>
+       <li>HTML5,CSS,Bootstrap</li>
+       <li>Wordpress,Github</li>
+       <li>UX/UI</li>
+    </div>
+
+    <div class="container-block bg-blue-light">    
+        <h3>EDUCATION</h3>
+        <li>Bachelor Degree in Computer Science and Engineering</li>
+        <li>Post Graduate Diploma in Cloud Computing and Technologies</li>
+        <li> Certification in Java/J2EE from NIIT</li>
+        <li>Certification in Junior Web development from ICS</li>
+        
     </div>
 
     <!-- Begin footer-->
@@ -104,8 +73,8 @@
 
         <ul class="footer-links">
             <li><a href="../index.html">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
             <li><a href="../contact/">Contact Form</a></li>
+           
         </ul>
         
 
@@ -129,7 +98,7 @@
             </li>
 
 
-            <li>
+           <!-- <li>
                 <a href="#" target="_blank">
                     <i class="fab fa-twitter"></i>
                 </a>
@@ -139,20 +108,44 @@
                 <a href="#" target="_blank">
                     <i class="fab fa-instagram"></i>
                 </a>
-            </li>
+            </li>-->
             
          </ul>                
         
         <a class="privacy-legal" href="../privacy.html">Privacy & Legal</a>
     </footer>
 	<!-- End footer -->
-        
+
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+        </script>
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
 <!-- JavaScript for Cookie Consent Popup Message -->
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 <script>
@@ -170,5 +163,7 @@ window.cookieconsent.initialise({
   }
 });
 </script>
+    
+
 </body>
 </html>
